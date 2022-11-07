@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "export NODE_OPTIONS=--experimental-vm-modules && jest --detectOpenHandles"
+    "test": "export NODE_OPTIONS=--experimental-vm-modules && jest --detectOpenHandles --coverage"
   },
   "keywords": [],
   "author": "Pierre Juarez U.",
